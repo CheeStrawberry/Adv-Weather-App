@@ -62,6 +62,16 @@ body {
   margin-top: 25px;
 }
 
+.today-info h2{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.today-info span,
+.today-info i{
+    font-weight: 500;
+}
+
 .today-weather {
   position: absolute;
   display: flex;
@@ -72,7 +82,15 @@ body {
 }
 
 .today-weather .bx {
-  font-size: 4.6rem;
+  font-size: 3rem;
+}
+
+.today-weather .weather-temp{
+    font-size: 37px;
+}
+
+.today-weather h3{
+    text-transform: capitalize;
 }
 
 .weather-temp {
@@ -109,7 +127,7 @@ body {
   display: flex;
   list-style: none;
   margin: 10px 35px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
   border-radius: 10px;
 }
 
@@ -126,19 +144,23 @@ body {
 
 .days-list li .bx {
   margin-bottom: 5px;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 .days-list li:hover {
   transform: scale(1.1);
   background: #fff;
-  color: #222831;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  color: #2f3c50;
+  box-shadow: 0 0 10px rgba(226, 217, 217, 0.35);
 }
 
 .days-list li .day-temp {
-  margin-top: 6px;
+  margin-top: 7px;
   font-weight: 700;
+}
+
+.days-list span{
+    font-weight: 500;
 }
 
 .btn-container {
@@ -146,6 +168,7 @@ body {
 }
 
 .loc-button {
+    font-size: 15px;
   outline: none;
   width: 100%;
   border: none;
@@ -155,7 +178,7 @@ body {
   background: #8e98d6;
   color: #fff;
   cursor: pointer;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.35);
   transition: all 0.3s ease;
 }
 
